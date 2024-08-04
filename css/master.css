@@ -6,10 +6,6 @@ input:focus {
   outline: none;
 }
 
-.section-padding {
-  padding-top: 3rem;
-}
-
 section.landing {
   padding-top: 10rem;
 }
@@ -82,6 +78,7 @@ section.landing {
   position: fixed;
   bottom: 50px;
   right: 40px;
+  z-index: 999;
 }
 
 .top-btn button {
@@ -97,18 +94,11 @@ section.landing {
   border: 20px solid #fff;
 }
 
-.testimonial-column {
-  overflow: hidden;
-}
-
 .testimonial-column .testimonial-img {
-  min-width: 600px;
+  min-width: 400px;
 }
 
 @media screen and (max-width: 768px) {
-  .testimonial-column {
-    overflow: visible;
-  }
   .testimonial-column .testimonial-card {
     top: 30px;
     width: 100%;
